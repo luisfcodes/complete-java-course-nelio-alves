@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SequentialStructureExercise {
+public class SequentialStructureExercises {
     private static final Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -10,6 +10,8 @@ public class SequentialStructureExercise {
         exercise4();
         exercise5();
         exercise6();
+
+        sc.close();
     }
 
     private static void exercise1() {
