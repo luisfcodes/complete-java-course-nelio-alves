@@ -1,4 +1,5 @@
 import java.util.Locale;
+import java.util.Scanner;
 
 public class Main {
 
@@ -25,6 +26,10 @@ public class Main {
         System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n", name, age, salary);
 
         exercise();
+
+//         scanner();
+
+        math();
     }
 
     private static void exercise() {
@@ -51,6 +56,37 @@ public class Main {
         System.out.printf("Measure with eight decimal places: %.8f%n", measure);
         System.out.printf("Rounded (three decimal places): %.3f%n", measure);
         System.out.printf("US decimal point: %.3f%n", measure);
+    }
+
+    private static void scanner() {
+        System.out.println("Digite um número inteiro:");
+        Scanner sc = new Scanner(System.in);
+
+        int x = sc.nextInt();
+
+        System.out.println("Você digitou: " + x);
+
+        sc.close();
+    }
+
+    private static void math() {
+        double squareRoot = Math.sqrt(24);
+        double power = Math.pow(3, 2);
+        double abs = Math.abs(-10);
+
+        int a = 1;
+        int b = 5;
+        int c = 6;
+
+        double delta = Math.pow(b, 2.0) - 4 * a * c;
+        double x1 = (-b + Math.sqrt(delta)) / (2.0 * a);
+
+        System.out.println();
+        System.out.println("Raiz quadrada de 25: " + squareRoot);
+        System.out.println("3 elevado a 2: " + power);
+        System.out.println("Valor absoluto de -10: " + abs);
+        System.out.println("Delta: " + delta);
+        System.out.println("X1: " + x1);
     }
 
 }
