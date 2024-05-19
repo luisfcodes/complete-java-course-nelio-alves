@@ -12,6 +12,8 @@ public class ConditionalStructureExercises {
         exercise6();
         exercise7();
         exercise8();
+
+        sc.close();
     }
 
     private static void exercise1() {
