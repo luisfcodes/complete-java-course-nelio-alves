@@ -4,13 +4,13 @@ public class ConditionalStructureExercises {
     private static final Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
-        //exercise1();
-        //exercise2();
-        //exercise3();
-        //exercise4();
-        //exercise5();
-        //exercise6();
-        //exercise7();
+        exercise1();
+        exercise2();
+        exercise3();
+        exercise4();
+        exercise5();
+        exercise6();
+        exercise7();
         exercise8();
     }
 
