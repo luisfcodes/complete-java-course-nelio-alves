@@ -1,12 +1,8 @@
 package array_lists.ex4;
 
-import array_lists.ex3.Person;
-
 import java.util.Arrays;
-import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
-import java.util.stream.Stream;
 
 public class Program {
     static final Scanner sc = new Scanner(System.in).useLocale(Locale.US);
