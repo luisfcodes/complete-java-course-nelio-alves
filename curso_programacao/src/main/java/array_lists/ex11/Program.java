@@ -38,6 +38,8 @@ public class Program {
         calculateSmallestAndGreatestHeight(personList);
         calculateAvgHeightOfWomen(personList);
         calculateTheNumberOfMen(personList);
+
+        sc.close();
     }
 
     private static void calculateSmallestAndGreatestHeight(Person[] personList) {
